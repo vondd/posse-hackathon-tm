@@ -38,8 +38,24 @@ h2 {
 /* ヘッダー */
 header {
 	display: flex;
-	padding-bottom: 6.25rem;
+	/* padding-bottom: 6.25rem; */
 	background-color: #f1f0e9;
+	color: #333;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.header-list{
+	display: flex;
+	gap: 5%;
+	
+
+}
+
+.header-list>li{
+	width: 10vw;
 }
 .button-menu {
 	padding: 1.25rem;
@@ -49,6 +65,11 @@ header {
 	color: #a8a698;
 }
 
+h1 {
+	color: #333;
+	font-size: larger;
+	font: bold;
+}
 /* メイン */
 /* プロフィール部分 */
 .profile {
@@ -214,4 +235,16 @@ footer {
 	text-align: center;
 	color: #fff;
 	background-color: #a8a698;
+}
+
+@media screen and  (max-width:768px){
+  .works .container{
+	display: block;
+	flex-wrap: wrap;
+	column-gap: 2%;
+	row-gap: 2.5rem;
+	max-width: 67.5rem;
+	margin: 0 auto;
+
+	}
 }

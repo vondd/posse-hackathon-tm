@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <title>POSSE電子版</title>
     <meta name="description" content="POSSE生のための電子掲示板です。">
+	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ress@4.0.0/dist/ress.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +14,16 @@
 </head>
 
 <body>
-	<header>
-		<h1>POSSE電子版</h1>
-	</header>
+		<header>
+			<h1><a href="./index.html">POSSE電子版</a></h1>
+			<nav class="header-nav">
+				<ul class="header-list">
+					<li><a href="./event.html">Event</a></li>
+				<li><a href="./column.html">Column</a></li>
+				<li><a href="./member.html">Member</a></li>
+				</ul>
+			</nav>
+		</header>
 
 	<main>
 		<section class="works">
@@ -70,5 +78,6 @@
 	<footer>
 		<small class="text-center uppercase">&copy; 2023POSSE Co., Ltd.</small>
 	</footer>
+	
 </body>
 </html>

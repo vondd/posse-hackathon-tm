@@ -19,10 +19,23 @@
 
 <body>
 	<header>
-		<h1><a href="/">POSSE電子版</a></h1>
+		<h1><a href="./index.html">POSSE電子版</a></h1>
+		<nav class="header-nav">
+			<ul class="header-list">
+				<li><a href="./event.html">Event</a></li>
+			<li><a href="./column.html">Column</a></li>
+			<li><a href="./member.html">Member</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
+		<div>
+			<button type="button" class="art">美術</button>
+			<button type="button" class="snack">お菓子づくり</button>
+			<button type="button" class="baske">バスケ</button>
+			<button type="button" class="kaizyo">解除</button>
+		</div>
 		<div class="center">
 			<div class="card">
 				<div class="additional">
@@ -31,7 +44,7 @@
 						PH2
 					</div>
 					<div class="member-img">
-						<img src="..images/humiya.jpg" alt="">
+						<!--<img src="./images/humiya.jpg" alt="">-->
 					</div>
 					<div class="points center">
 						POSSE3
@@ -74,6 +87,10 @@
 				<div class="general">
 					<h1>Fumiya Shimotori</h1>
 					<p>誰か一緒に美術館行こうよ～<br>楽しいよ～</p>
+					<div>
+						<button type="button" class="art">美術</button>
+						<button type="button" class="baske">バスケ</button>
+					</div>
 					<span class="more">詳細は裏面に‼</span>
 				</div>
 				</div>
@@ -125,6 +142,8 @@
 				<div class="general">
 					<h1>Keisuke Dairoku</h1>
 					<p>一緒にお菓子作りしようね～❤</p>
+					<button type="button" class="snack">お菓子づくり</button>
+					<button type="button" class="baske">バスケ</button>
 					<span class="more">詳細は裏面に！</span>
 				</div>
 				</div>
@@ -134,5 +153,6 @@
 	<footer>
 		<small class="text-center uppercase">&copy; 2023POSSE Co., Ltd.</small>
 	</footer>
+	<script src="./js/column.js"></script>
 </body>
 </html>
