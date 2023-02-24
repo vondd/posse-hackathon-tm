@@ -256,7 +256,12 @@ display: none;
 	font-weight: bold;
 	background: #008bb7;
 	border-radius: 4px;
-	min-width: 420px;
+	width: 40%;
 	color: #fff;
 	padding: 12px;
+}
+@media screen and (max-width:768px) {
+	.event__introduce__section {
+		margin: 0 10%;
+	}
 }
